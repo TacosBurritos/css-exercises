@@ -25,3 +25,36 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.header, .left-links, .right-links, .footer{
+  display: flex;
+  gap: 16px;
+}
+.header{
+  justify-content: space-between;
+}
+
+li{
+  list-style: none;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.content {
+ flex-grow: 1;
+ justify-content: center;
+}
+
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #eeeeee;
+  color: black;
+  text-align: center;
+  justify-content: space-between;
+}
